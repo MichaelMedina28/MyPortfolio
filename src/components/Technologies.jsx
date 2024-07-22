@@ -7,6 +7,7 @@ import { FaBootstrap } from "react-icons/fa";
 import { motion } from "framer-motion";
 import { useTransition } from "react";
 import { SiMysql } from "react-icons/si";
+import { FaGitAlt } from "react-icons/fa";
 
 const iconVariants = (duration) => ({
     initial: {y: -10},
@@ -101,6 +102,14 @@ const Technologies = () => {
             animate="animate"
             className="rounded-2xl border-4 border-neutral-800 p-4">
                 <SiMysql className="text-7xl text-violet-400 w-20 h-20"/>
+            </motion.div>
+
+            <motion.div 
+            variants={iconVariants(1)}
+            initial="initial"
+            animate="animate"
+            className="rounded-2xl border-4 border-neutral-800 p-4">
+                <FaGitAlt className="text-7xl text-orange-600 w-20 h-20"/>
             </motion.div>
             
         </motion.div>
