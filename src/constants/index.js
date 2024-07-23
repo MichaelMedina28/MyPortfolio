@@ -1,7 +1,7 @@
 import project1 from "../assets/CALRSLogin.png";
 import project2 from "../assets/LIRCPortal.png";
 import project3 from "../assets/Portfolio.png";
-import project4 from "../assets/LIRCBarcode.png";
+import project4 from "../assets/LIRCBarcode.jpg";
 
 
 import experience1  from "../assets/Continental.png";
