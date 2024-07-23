@@ -1,6 +1,7 @@
 import project1 from "../assets/CALRSLogin.png";
 import project2 from "../assets/LIRCPortal.png";
 import project3 from "../assets/Portfolio.png";
+import project4 from "../assets/LIRCBarcode.png";
 
 
 import experience1  from "../assets/Continental.png";
@@ -52,7 +53,7 @@ export const PROJECTS = [
   },
   {
     title: "LIRC Barcode Logging System",
-    image: project2,
+    image: project4,
     description:
       "The system was developed to enhance the efficiency and security of accessing educational resources within the CCC Learning Information Resource Center. It's also designed to reduce the time spent on manual login procedures through the automated barcode system, improving overall operational efficiency.",
     technologies: ["HTML", "CSS", "JavaScript", "Php","Bootstrap", "Ajax"],
